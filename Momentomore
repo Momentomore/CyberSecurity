@@ -1,0 +1,23 @@
+11 {main}
+
+#10 /Applications/XAMPP/xamppfiles/htdocs/public/index.php(455): Slim\Slim->run()
+
+#9 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/vendor/slim/slim/Slim/Slim.php(1302): UserFrosting\UserSession->call()
+
+#8 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/middleware/usersession/UserSession.php(27): Slim\Extras\Middleware\CsrfGuard->call()
+
+#7 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/middleware/CsrfGuard.php(51): Slim\Middleware\MethodOverride->call()
+
+#6 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+
+#5 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+
+#4 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/vendor/slim/slim/Slim/Slim.php(1357): Slim\Route->dispatch()
+
+#3 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/vendor/slim/slim/Slim/Route.php(468): call_user_func_array(Object(Closure), Array)
+
+#2 [internal function]: {closure}()
+
+#1 /Applications/XAMPP/xamppfiles/htdocs/public/index.php(106): UserFrosting\BenchmarkController->updateBenchmark()
+
+[20-Nov-2015 17:54:26 America/New_York] #0 /Applications/XAMPP/xamppfiles/htdocs/userfrosting/controllers/BenchmarkController.php(57): Slim\Slim::handleErrors(8, 'Undefined index...', '/Applications/X...', 57, Array) 
